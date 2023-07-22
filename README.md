@@ -4,7 +4,7 @@ The theme has to be set to 'Subtle'
 
 Original post: https://hanspinckaers.com/my-custom-css-for-vivaldi/
 
-###Major limitation:
+### Major limitations:
 - Showing panel or making the tabs sidebar to wide causes misalignments
 - Dark mode doesn't work
 
