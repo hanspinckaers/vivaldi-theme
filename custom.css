@@ -1,0 +1,195 @@
+#browser.mac.address-top .toolbar:has(.window-buttongroup.on-mainbar) {
+	min-height: calc(36px / var(--uiZoomLevel));
+}
+
+#browser.mac, #browser.mac + div, #browser.mac + div + div, #browser.mac button, #browser.mac input, #browser.mac select, #browser.mac textarea {
+	font-family: 'SF', '.SFNSDisplay', system-ui, HelveticaNeue, LucidaGrande, sans-serif;
+	font-variation-settings: unset;
+	-webkit-text-stroke: 0.13px;
+}
+
+.tab-position .tab .title {
+	font-size: 13px;
+}
+
+#browser.mac .window-buttongroup.on-mainbar {
+	margin-top: 4px;
+	margin-right: 18px;
+}
+
+.toolbar-tabbar .newtab > button svg {
+	fill: rgba(198,198,198,255);
+}
+
+div.separator {
+	display: none;
+}
+
+.tab-strip {
+	background-color: transparent;
+	border: 0;
+}
+
+.tab-position .tab .title {
+	display: flex;
+	flex: 1;
+	align-items: center;
+	margin-right: 3px;
+	padding-left: 7px;
+	font-size: 13px;
+	overflow: hidden;
+	white-space: nowrap;
+	margin-top: -2px;
+	line-height: 13px;
+}
+
+#tabs-subcontainer {
+	background-color: blue;
+}
+
+.subcontainer-lock * {
+	display: none;
+}
+
+.tab-position .tab {
+	font-size: 11.5px;
+}
+
+.svg-tab-stack line, .svg-tab-selection line, .svg-tab-stack rect, .svg-tab-selection rect {
+	fill: none;
+	stroke-width: 2px;
+}
+
+:not(.ui-transparent-tabs).transparent-tabbar:not(.acc-dark.bg-dark.color-accent-from-page.color-behind-tabs-on) .tab-position .tab {
+	background-color: transparent;
+}
+
+#tabs-container.left .tab-strip, #tabs-container.right .tab-strip {
+	margin: 5px;
+}
+
+#tabs-subcontainer .tab-strip {
+	background-color: rgb(237, 238, 242);
+}
+
+div.is-substack .favicon {
+	display: none
+}
+
+div.is-substack .tab {
+	border: rgba(0,0,0,0.05) 1.5px solid;
+}
+
+div.is-substack .tab-position .tab .close {
+	display: none !important;
+}
+
+div.is-substack.tab-position .tab:hover .close {
+	display: none !important;
+}
+
+div.stack-counter {
+	background-color: unset;
+}
+
+#webview-container {
+	box-shadow: rgb(0 0 0 / 10%) 0px 0px 3px, rgb(0 0 0 / 5%) 0px 0px 2px, rgb(0 0 0 / 3%) 0px 0px 1px;
+}
+
+#tabs-tabbar-container .favicon img, #tabs-tabbar-container .favicon svg {
+	filter: initial;
+	height: 15px;
+	width: 15px;
+	position: relative;
+	top: 3px;
+	left: 3px;
+}
+
+.tab-position .tab .favicon, .tab-position .tab .close {
+	min-width: 23px;
+	min-height: 23px;
+}
+
+div.is-substack svg {
+	display: none;
+}
+
+div#tabs-container {
+	background-color: var(--colorWindowBg);
+}
+
+.tab-position {
+	position: absolute;
+	display: flex;
+	opacity: var(--Opacity);
+	height: var(--Height);
+	width: var(--Width);
+	z-index: var(--ZIndex);
+	top: calc(var(--PositionY) / 30 * 35);
+	transform: none;
+	height: 35px;
+}
+
+.tab-position .tab .tab-header {
+	display: flex;
+	flex: 0 0 35px;
+	position: relative;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 7px;
+	overflow: hidden;
+	align-items: stretch;
+	line-height: 1;
+}
+
+.toolbar-tabbar > .button-toolbar > button, .toolbar-tabbar > .toolbar-group > .button-toolbar > button {
+	opacity: 0;
+}
+
+div.stack-counter {
+	display: none;
+}
+
+#tabs-subcontainer .tab.isdiscarded .favicon,
+#tabs-subcontainer .tab .favicon {
+    /* filter: sepia(100%) hue-rotate(180deg) saturate(60%); */
+    /* transition: filter 0.2s ease-in; */;
+}
+
+#browser .tab-position .tab.active {
+	background-color: rgba(0,0,0,0.07) !important;
+}
+
+.transparent-tabbar:not(.acc-dark.bg-dark.color-accent-from-page.color-behind-tabs-on) .tab-position .tab:hover:not(.active) {
+	background-color: rgba(0,0,0,0.04);
+	transition: background-color 0.2s ease;
+}
+
+div.toolbar-mainbar {
+	width: calc(100% - 250px);
+	box-shadow: rgb(0 0 0 / 10%) 0px 0px 3px, rgb(0 0 0 / 5%) 0px 0px 2px, rgb(0 0 0 / 3%) 0px 0px 1px;
+}
+
+#browser.mac .window-buttongroup.on-mainbar {
+	position: relative;
+	left: -255px;
+	margin-right: -80px;
+}
+
+div.mainbar {
+	position: relative;
+	left: 250px;
+}
+
+#tabs-subcontainer.left, #tabs-subcontainer.right {
+	margin: 5px;
+}
+
+#tabs-container ~ #tabs-subcontainer {
+	box-shadow: rgba(237, 238, 242, 0.65) -210px 1px 0px 210px;
+	z-index: 1;
+}
+
+#browser:not(.theme-dark) #tabs-tabbar-container.left {
+	box-shadow: unset !important;
+}
